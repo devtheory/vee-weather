@@ -1,0 +1,17 @@
+{
+  "name": "vee-weather",
+  "version": "1.0.0",
+  "description": "A microservice to fetch weather for a given location",
+  "main": "server/service.js",
+  "repository": "https://github.com/devtheory/vee-weather.git",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jose Sanchez",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "superagent": "^3.8.2"
+  }
+}
